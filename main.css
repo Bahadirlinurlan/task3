@@ -1,0 +1,108 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: black; 
+
+}
+.sekil{ 
+     position: absolute;
+     left: 0;
+    right: 0;
+    bottom: 0;
+    top: -30px;
+}
+
+.body{
+    
+    position: absolute;
+    background-color: rgba(0,0,0,.85);
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0; 
+}
+
+.image{
+    border-radius: 50%;
+    
+    border: 10px solid rgb(255, 255, 255,.1);
+    position: fixed;
+    margin-top: 187px;
+    margin-left: 400px;
+}
+
+.maintext{
+    height: 100%;
+    width: 100%;
+    display: table;
+    margin-left: 50vw;
+    max-width: 550px;
+}
+.text
+    {
+        position: relative;
+    color: white;
+    margin-top: 230px;
+    margin-left: 13px;
+    font-family: 'Poppins', sans-serif;
+    }
+.text__2{
+    color: #2196F3;
+    font-weight: 700;
+    margin-left: 46px;
+    border-left: 3px solid;
+    font-size: 42px;
+    line-height: 42px;
+    font-family: 'Poppins', sans-serif;
+    margin-top: -60px;   
+}
+#spin::after{
+    content:"";
+  animation: spin 6s linear infinite;
+  
+
+}
+@keyframes spin {
+    25% { content:"DARIA TAYLOR";}
+    50% { content:"A WEB DESIGNER";}
+    75% { content:"A BLOGGER";}
+    100% { content:"A FREELANCER";}
+  }
+
+  .text__3{
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 32px;
+    margin: 11px 0 23px;
+  }
+
+
+
+    
+
+  .left__button{
+    width: 217px;
+    height: 45px;
+    border-radius: 25px;
+    
+   
+    background-color:#2196F3}
+    
+    .left__button:hover {
+        position: absolute;
+    content: "";
+    width: 217px;
+    height: 45px;
+    border-radius: 25px;
+    /* top: 0;
+    height: 102%;
+    left: -25%;
+    width: 0%; */
+    background-color: #555;
+    transform: skew(-22deg);
+    transition-duration: .6s;
+    z-index: 1;
+}
+    
+  
+  
